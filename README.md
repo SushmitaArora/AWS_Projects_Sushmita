@@ -78,5 +78,40 @@ Here is the exact query used to retrieve the necessary data from Athena:
 **Data Visualization**
 Excel: Bar chart was created in Excel to visualize the rates of License Issued and "Gone out of Business"
 **Visualization 1:** Bar chart of issued and gone out of business rates
+<img width="843" alt="image" src="https://github.com/SushmitaArora/AWS_Projects_Sushmita/blob/edbe65729ba0bb8be0f134c16ce27bab110905ce/barchart%20dentistratae.jpg">
 
+**Publishing and Web Hosting**
+**AWS EC2:** The analysis and results were published on a web server using AWS EC2 to make the findings easily accessible for stakeholders.
+**Data Protection and Governance**
 
+**AWS Key Management Service (KMS):** Encryption was applied to secure data in S3 using KMS, ensuring that data at rest and in transit was protected with cryptographic keys.
+
+**Data Replication:** Replication rules were set to ensure data was duplicated across different AWS regions, providing redundancy in case of regional failures.
+**AWS Glue:** The data was governed and managed through AWS Glue, where a tested zone was established to maintain data quality.
+
+**Data Monitoring**
+**AWS CloudTrail:** API calls and user activities across the AWS environment were monitored using CloudTrail, enhancing auditing and security measures.
+**AWS CloudWatch:** CloudWatch tracked performance metrics and resource utilization, allowing me to monitor the health of services and ensure optimal performance.
+
+**Data Insights and Findings**
+**Rates of License Issued and Gone out of businesses** : There were less rate of business who went out of businesses in 2024 compared to 2023 
+**Trends:** 2024 showed higher number of license issued than 2023
+**Recommendation:** Based on the analysis of dental clinic license issuances and cancellations in Vancouver for 2023 and 2024, it is recommended that the city implement targeted business support programs and policy adjustments to address fluctuations in the dental sector. High cancellation rates may indicate economic challenges such as rising operational costs or regulatory burdens. To mitigate this, Vancouver could offer financial incentives like tax relief or subsidies for clinics in struggling neighborhoods, while focusing on business retention and expansion (BR&E) programs. These initiatives could include mentorship for clinic owners and infrastructure improvements in high-potential areas where new licenses are being issued. Additionally, collaboration with healthcare providers to understand industry challenges and proactive policy adjustments will foster a more supportive business environment, ensuring sustainable growth and better distribution of healthcare services across the city..
+
+**Tools and Technologies Used**
+
+**AWS S3**: For data storage.
+**AWS DataBrew:** For cleaning and transforming the dataset.
+**AWS Glue:** To automate the ETL pipeline.
+**AWS Athena:** For running SQL queries and analyzing the data.
+**Excel:** For visualizing the data using charts and histograms.
+**AWS EC2:** For hosting the analysis results on a web server.
+**AWS Key Management Service (KMS):** For encryption and data protection.
+**AWS CloudTrail:** For monitoring user activities and API calls.
+**AWS CloudWatch:** For tracking performance metrics and monitoring system health.
+
+**Deliverables**
+A detailed report summarizing the methods, findings, and recommendations.
+Visualizations and dashboards to present key insights clearly.
+**Conclusion**
+This data analytics project enables the City of Vancouver to make evidence-based decisions that benefit local businesses and residents. By understanding the trends in business licenses, the city can improve urban planning, strengthen the local economy, enhance public services, and ensure sustainable growth.
