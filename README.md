@@ -69,4 +69,8 @@ To analyze the rate of licnese issued or cancelled in years 2023 and 2024, and i
 **AWS Athena:** SQL queries were run in AWS Athena to analyze the cleaned data. I calculated the lost rate of each breed and summarized trends in lost animals across 2023 and 2024.
   
 Here is the exact query used to retrieve the necessary data from Athena:
-For issued License: 
+**For issued License:**
+<img width="843" alt="image" src="https://github.com/SushmitaArora/AWS_Projects_Sushmita/blob/be414f8a73099b8f09b64dcd1031066adf03ec1e/issued%20query.jpg">
+
+**For "Gone out of business" Query**
+
