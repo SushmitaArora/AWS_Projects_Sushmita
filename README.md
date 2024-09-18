@@ -62,3 +62,5 @@ To analyze the rate of licnese issued or cancelled in years 2023 and 2024, and i
 **AWS DataBrew:** The data was cleaned using AWS DataBrew to address missing values, remove duplicates, and ensure consistency across both datasets.
 **3. ETL Pipeline**
 **AWS Glue:** I used AWS Glue to build an automated ETL (Extract, Transform, Load) pipeline, which enabled efficient data extraction from S3, transformation of the data, and loading it for analysis.
+
+
