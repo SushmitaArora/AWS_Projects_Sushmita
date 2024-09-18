@@ -56,11 +56,17 @@ To analyze the rate of licnese issued or cancelled in years 2023 and 2024, and i
 
 **Methodology**
 
-**1. Data Collection and Storage****
++ **1. Data Collection and Storage****
 **AWS S3:** The dataset was stored in two separate S3 buckets for the years 2023 and 2024, ensuring secure and scalable storage.
-**2. Data Cleaning and Preprocessing**
++ **2. Data Cleaning and Preprocessing**
 **AWS DataBrew:** The data was cleaned using AWS DataBrew to address missing values, remove duplicates, and ensure consistency across both datasets.
-**3. ETL Pipeline**
++ **3. ETL Pipeline**
 **AWS Glue:** I used AWS Glue to build an automated ETL (Extract, Transform, Load) pipeline, which enabled efficient data extraction from S3, transformation of the data, and loading it for analysis.
 
+<img width="843" alt="image" src="https://github.com/SushmitaArora/AWS_Projects_Sushmita/blob/cfeb10b1bac24d09f1d1aa8a4ee1df64e5e1be13/etl%20bsuiness%20license.jpg">
 
++ **4. Data Analysis**
+**AWS Athena:** SQL queries were run in AWS Athena to analyze the cleaned data. I calculated the lost rate of each breed and summarized trends in lost animals across 2023 and 2024.
+  
+Here is the exact query used to retrieve the necessary data from Athena:
+For issued License: 
