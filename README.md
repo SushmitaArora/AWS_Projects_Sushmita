@@ -73,16 +73,18 @@ Here is the exact query used to retrieve the necessary data from Athena:
 
 **For issued License:**
 
-<img width="843" alt="image" src="https://github.com/SushmitaArora/AWS_Projects_Sushmita/blob/60a490e07e24d7dbb5b790f5bdfbc1764f55e378/QI.jpg">
+![QI](https://github.com/user-attachments/assets/4e8edd47-ad5b-40bd-bf29-550cf95121e2)
 
 **For "Gone out of business" Query**
-<img width="843" alt="image" src="https://github.com/SushmitaArora/AWS_Projects_Sushmita/blob/2e8cd4c4a6ff8a92d4cef164e13afa9b0d19ff52/QGOB.jpg">
+
+![QGOB](https://github.com/user-attachments/assets/5f10ff1a-4656-47b4-9d67-8bdf85e38d28)
 
 # **Data Visualization**
 **Excel:** Bar chart was created in Excel to visualize the rates of License Issued and "Gone out of Business"
 
 **Visualization 1:** Bar chart of issued and gone out of business rates
-<img width="843" alt="image" src="https://github.com/SushmitaArora/AWS_Projects_Sushmita/blob/edbe65729ba0bb8be0f134c16ce27bab110905ce/barchart%20dentistratae.jpg">
+![barchart dentistratae](https://github.com/user-attachments/assets/e4680fa0-185f-4929-9720-735e9bdb9f99)
+
 
 # **Publishing and Web Hosting**
 
