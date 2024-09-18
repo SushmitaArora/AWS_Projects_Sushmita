@@ -73,4 +73,10 @@ Here is the exact query used to retrieve the necessary data from Athena:
 <img width="843" alt="image" src="https://github.com/SushmitaArora/AWS_Projects_Sushmita/blob/be414f8a73099b8f09b64dcd1031066adf03ec1e/issued%20query.jpg">
 
 **For "Gone out of business" Query**
+<img width="843" alt="image" src="https://github.com/SushmitaArora/AWS_Projects_Sushmita/blob/3dfaf6a7462d0b492e49c08f91c57f5d7376f2b4/gob.jpg">
+
+**Data Visualization**
+Excel: Bar chart was created in Excel to visualize the rates of License Issued and "Gone out of Business"
+**Visualization 1:** Bar chart of issued and gone out of business rates
+
 
