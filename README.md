@@ -43,7 +43,7 @@ Dataset link: [Dental Business License Issued in 2024](https://opendata.vancouve
 [Dental Business License Issued in 2023](https://opendata.vancouver.ca/explore/dataset/business-licences-2013-to-2024/information/?disjunctive.status&refine.folderyear=23&refine.businesstype=Health+Services&refine.businesssubtype=Dentist)
 
 
-<img width="843" alt="image" src="https://github.com/user-attachments/assets/766a6756-888e-4901-8608-fccdebb49e75">
+ <img width="843" alt="image" src="https://github.com/user-attachments/assets/766a6756-888e-4901-8608-fccdebb49e75">
 
 # **Data Analytical Question Formulation**
 ## **Goal**
@@ -63,7 +63,7 @@ To **analyze the rate of licnese issued or gone out of business**in years 2023 a
 + **3. ETL Pipeline**
 **AWS Glue:** I used AWS Glue to build an automated ETL (Extract, Transform, Load) pipeline, which enabled efficient data extraction from S3, transformation of the data, and loading it for analysis.
 
-<img width="843" alt="image" src="https://github.com/SushmitaArora/AWS_Projects_Sushmita/blob/cfeb10b1bac24d09f1d1aa8a4ee1df64e5e1be13/etl%20bsuiness%20license.jpg">
+ <img width="843" alt="image" src="https://github.com/SushmitaArora/AWS_Projects_Sushmita/blob/cfeb10b1bac24d09f1d1aa8a4ee1df64e5e1be13/etl%20bsuiness%20license.jpg">
 
  **4. Data Analysis**
  
@@ -73,17 +73,17 @@ Here is the exact query used to retrieve the necessary data from Athena:
 
 **For issued License:**
 
-![QI](https://github.com/user-attachments/assets/4e8edd47-ad5b-40bd-bf29-550cf95121e2)
+ ![QI](https://github.com/user-attachments/assets/4e8edd47-ad5b-40bd-bf29-550cf95121e2)
 
 **For "Gone out of business" Query**
 
-![QGOB](https://github.com/user-attachments/assets/5f10ff1a-4656-47b4-9d67-8bdf85e38d28)
+ ![QGOB](https://github.com/user-attachments/assets/5f10ff1a-4656-47b4-9d67-8bdf85e38d28)
 
 # **Data Visualization**
 **Excel:** Bar chart was created in Excel to visualize the rates of License Issued and "Gone out of Business"
 
 **Visualization 1:** Bar chart of issued and gone out of business rates
-![barchart dentistratae](https://github.com/user-attachments/assets/e4680fa0-185f-4929-9720-735e9bdb9f99)
+ ![barchart dentistratae](https://github.com/user-attachments/assets/e4680fa0-185f-4929-9720-735e9bdb9f99)
 
 
 # **Publishing and Web Hosting**
