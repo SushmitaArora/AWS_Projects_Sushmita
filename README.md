@@ -1,15 +1,15 @@
-**Descriptive Analysis of License Issued in Vancouver city in 2023 and 2024 in AWS**
+# **Descriptive Analysis of License Issued in Vancouver city in 2023 and 2024 in AWS**
 
-*Project Overview*
+## **Project Overview**
 
 The City of Vancouver is improving its services with a Data Analytics Platform (DAP), enabling smarter decision-making. My role in this project involved calculating the total number of issued and canceled licenses and identifying trends over time.
 
-This project provides insights into number of License issued in year of **2023 and 2024**, leveraging the power of AWS technologies for data storage, cleaning, analysis, and monitoring.
+This project provides insights into number of License "issued" and Licnese that "gone out of business" in year of **2023 and 2024**, leveraging the power of AWS technologies for data storage, cleaning, analysis, and monitoring.
 
-**Objective**
+## **Objective**
 The main goal of this project was to identify the rate of license issued and cancelled in 2023 and 2024. The analysis provided insights into cancelled and issued dental licenses to help the City of Vancouver optimize their Resource Allocation and Infrastructure Planning, Monitoring Economic Health, Compliance and Governance and Make Data-driven Decisions.
 
-**Dataset**
+## **Dataset**
 The dataset contains Number of License Issued , cancelled , goneout of business and Pending in  Vancouver, spanning December 2023 to January 2024. It includes the following key features:
 
 + **FOLDERYEAR:** Year of the business license folder (e.g., 2023).
@@ -45,16 +45,16 @@ Dataset link: [Dental Business License Issued in 2024](https://opendata.vancouve
 
 <img width="843" alt="image" src="https://github.com/user-attachments/assets/766a6756-888e-4901-8608-fccdebb49e75">
 
-**Data Analytical Question Formulation**
-*Goal*
+# **Data Analytical Question Formulation**
+## **Goal**
 
-To analyze the rate of licnese issued or cancelled in years 2023 and 2024, and identify how these rates have changed over time.
+To **analyze the rate of licnese issued or gone out of business**in years 2023 and 2024, and identify how these rates have changed over time.
 
-**Key Metric**
+## **Key Metric**
 
-**License Issued Per year:**  This metric tracks the percentage of license issued or cancelled, categorized by status, for both 2023 and 2024.
+**License Issued Per year:**  This metric tracks the percentage of license issued or gone out of businesses, categorized by status, for both 2023 and 2024.
 
-**Methodology**
+# **Methodology**
 
 + **1. Data Collection and Storage****
 **AWS S3:** The dataset was stored in two separate S3 buckets for the years 2023 and 2024, ensuring secure and scalable storage.
@@ -65,53 +65,67 @@ To analyze the rate of licnese issued or cancelled in years 2023 and 2024, and i
 
 <img width="843" alt="image" src="https://github.com/SushmitaArora/AWS_Projects_Sushmita/blob/cfeb10b1bac24d09f1d1aa8a4ee1df64e5e1be13/etl%20bsuiness%20license.jpg">
 
-+ **4. Data Analysis**
+ **4. Data Analysis**
+ 
 **AWS Athena:** SQL queries were run in AWS Athena to analyze the cleaned data. I calculated the lost rate of each breed and summarized trends in lost animals across 2023 and 2024.
   
 Here is the exact query used to retrieve the necessary data from Athena:
+
 **For issued License:**
+
 <img width="843" alt="image" src="https://github.com/SushmitaArora/AWS_Projects_Sushmita/blob/60a490e07e24d7dbb5b790f5bdfbc1764f55e378/QI.jpg">
 
 **For "Gone out of business" Query**
 <img width="843" alt="image" src="https://github.com/SushmitaArora/AWS_Projects_Sushmita/blob/2e8cd4c4a6ff8a92d4cef164e13afa9b0d19ff52/QGOB.jpg">
 
-**Data Visualization**
-Excel: Bar chart was created in Excel to visualize the rates of License Issued and "Gone out of Business"
+# **Data Visualization**
+**Excel:** Bar chart was created in Excel to visualize the rates of License Issued and "Gone out of Business"
+
 **Visualization 1:** Bar chart of issued and gone out of business rates
 <img width="843" alt="image" src="https://github.com/SushmitaArora/AWS_Projects_Sushmita/blob/edbe65729ba0bb8be0f134c16ce27bab110905ce/barchart%20dentistratae.jpg">
 
-**Publishing and Web Hosting**
+# **Publishing and Web Hosting**
+
 **AWS EC2:** The analysis and results were published on a web server using AWS EC2 to make the findings easily accessible for stakeholders.
-**Data Protection and Governance**
+
+# **Data Protection and Governance**
 
 **AWS Key Management Service (KMS):** Encryption was applied to secure data in S3 using KMS, ensuring that data at rest and in transit was protected with cryptographic keys.
 
 **Data Replication:** Replication rules were set to ensure data was duplicated across different AWS regions, providing redundancy in case of regional failures.
+
 **AWS Glue:** The data was governed and managed through AWS Glue, where a tested zone was established to maintain data quality.
 
-**Data Monitoring**
+# **Data Monitoring**
+
 **AWS CloudTrail:** API calls and user activities across the AWS environment were monitored using CloudTrail, enhancing auditing and security measures.
+
 **AWS CloudWatch:** CloudWatch tracked performance metrics and resource utilization, allowing me to monitor the health of services and ensure optimal performance.
 
-**Data Insights and Findings**
+# **Data Insights and Findings**
+
 **Rates of License Issued and Gone out of businesses** : There were less rate of business who went out of businesses in 2024 compared to 2023 
+
 **Trends:** 2024 showed higher number of license issued than 2023
-**Recommendation:** Based on the analysis of dental clinic license issuances and cancellations in Vancouver for 2023 and 2024, it is recommended that the city implement targeted business support programs and policy adjustments to address fluctuations in the dental sector. High cancellation rates may indicate economic challenges such as rising operational costs or regulatory burdens. To mitigate this, Vancouver could offer financial incentives like tax relief or subsidies for clinics in struggling neighborhoods, while focusing on business retention and expansion (BR&E) programs. These initiatives could include mentorship for clinic owners and infrastructure improvements in high-potential areas where new licenses are being issued. Additionally, collaboration with healthcare providers to understand industry challenges and proactive policy adjustments will foster a more supportive business environment, ensuring sustainable growth and better distribution of healthcare services across the city..
 
-**Tools and Technologies Used**
+# **Recommendation:**
+Based on the analysis of dental clinic license issuances and cancellations in Vancouver for 2023 and 2024, it is recommended that the city implement targeted business support programs and policy adjustments to address fluctuations in the dental sector. High cancellation rates may indicate economic challenges such as rising operational costs or regulatory burdens. To mitigate this, Vancouver could offer financial incentives like tax relief or subsidies for clinics in struggling neighborhoods, while focusing on business retention and expansion (BR&E) programs. These initiatives could include mentorship for clinic owners and infrastructure improvements in high-potential areas where new licenses are being issued. Additionally, collaboration with healthcare providers to understand industry challenges and proactive policy adjustments will foster a more supportive business environment, ensuring sustainable growth and better distribution of healthcare services across the city..
 
-**AWS S3**: For data storage.
-**AWS DataBrew:** For cleaning and transforming the dataset.
-**AWS Glue:** To automate the ETL pipeline.
-**AWS Athena:** For running SQL queries and analyzing the data.
-**Excel:** For visualizing the data using charts and histograms.
-**AWS EC2:** For hosting the analysis results on a web server.
-**AWS Key Management Service (KMS):** For encryption and data protection.
-**AWS CloudTrail:** For monitoring user activities and API calls.
-**AWS CloudWatch:** For tracking performance metrics and monitoring system health.
+# **Tools and Technologies Used**
 
-**Deliverables**
++ **AWS S3**: For data storage.
++ **AWS DataBrew:** For cleaning and transforming the dataset.
++ **AWS Glue:** To automate the ETL pipeline.
++ **AWS Athena:** For running SQL queries and analyzing the data.
++ **Excel:** For visualizing the data using charts and histograms.
++ **AWS EC2:** For hosting the analysis results on a web server.
++ **AWS Key Management Service (KMS):** For encryption and data protection.
++ **AWS CloudTrail:** For monitoring user activities and API calls.
++ **AWS CloudWatch:** For tracking performance metrics and monitoring system health.
+
+# **Deliverables**
 A detailed report summarizing the methods, findings, and recommendations.
 Visualizations and dashboards to present key insights clearly.
-**Conclusion**
+
+# **Conclusion**
 This data analytics project enables the City of Vancouver to make evidence-based decisions that benefit local businesses and residents. By understanding the trends in business licenses, the city can improve urban planning, strengthen the local economy, enhance public services, and ensure sustainable growth.
