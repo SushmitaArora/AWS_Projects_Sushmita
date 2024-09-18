@@ -43,3 +43,22 @@ Dataset link: [Dental Business License Issued in 2024](https://opendata.vancouve
 [Dental Business License Issued in 2023](https://opendata.vancouver.ca/explore/dataset/business-licences-2013-to-2024/information/?disjunctive.status&refine.folderyear=23&refine.businesstype=Health+Services&refine.businesssubtype=Dentist)
 
 
+<img width="843" alt="image" src="https://github.com/user-attachments/assets/766a6756-888e-4901-8608-fccdebb49e75">
+
+**Data Analytical Question Formulation**
+*Goal*
+
+To analyze the rate of licnese issued or cancelled in years 2023 and 2024, and identify how these rates have changed over time.
+
+**Key Metric**
+
+**License Issued Per year:**  This metric tracks the percentage of license issued or cancelled, categorized by status, for both 2023 and 2024.
+
+**Methodology**
+
+**1. Data Collection and Storage****
+**AWS S3:** The dataset was stored in two separate S3 buckets for the years 2023 and 2024, ensuring secure and scalable storage.
+**2. Data Cleaning and Preprocessing**
+**AWS DataBrew:** The data was cleaned using AWS DataBrew to address missing values, remove duplicates, and ensure consistency across both datasets.
+**3. ETL Pipeline**
+**AWS Glue:** I used AWS Glue to build an automated ETL (Extract, Transform, Load) pipeline, which enabled efficient data extraction from S3, transformation of the data, and loading it for analysis.
