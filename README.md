@@ -70,7 +70,7 @@ To analyze the rate of licnese issued or cancelled in years 2023 and 2024, and i
   
 Here is the exact query used to retrieve the necessary data from Athena:
 **For issued License:**
-<img width="843" alt="image" src="https://github.com/SushmitaArora/AWS_Projects_Sushmita/blob/be414f8a73099b8f09b64dcd1031066adf03ec1e/issued%20query.jpg">
+<img width="843" alt="image" src="https://github.com/SushmitaArora/AWS_Projects_Sushmita/blob/60a490e07e24d7dbb5b790f5bdfbc1764f55e378/QI.jpg">
 
 **For "Gone out of business" Query**
 <img width="843" alt="image" src="https://github.com/SushmitaArora/AWS_Projects_Sushmita/blob/3dfaf6a7462d0b492e49c08f91c57f5d7376f2b4/gob.jpg">
