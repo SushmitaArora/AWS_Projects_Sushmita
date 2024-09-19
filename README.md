@@ -1,4 +1,4 @@
-# **Descriptive Analysis of License Issued in Vancouver city in 2023 and 2024 in AWS**
+# **Descriptive Analysis of License Issued and gone out of Businesses in Vancouver city in 2023 and 2024 in AWS**
 
 ## **Project Overview**
 
@@ -111,7 +111,7 @@ Here is the exact query used to retrieve the necessary data from Athena:
 **Trends:** 2024 showed higher number of license issued than 2023
 
 # **Recommendation:**
-Based on the analysis of dental clinic license issuances and gone out of businesses in Vancouver for 2023 and 2024, it is recommended that the city implement targeted business support programs and policy adjustments to address fluctuations in the dental sector. High cancellation rates may indicate economic challenges such as rising operational costs or regulatory burdens. To mitigate this, Vancouver could offer financial incentives like tax relief or subsidies for clinics in struggling neighborhoods, while focusing on business retention and expansion (BR&E) programs. These initiatives could include mentorship for clinic owners and infrastructure improvements in high-potential areas where new licenses are being issued. Additionally, collaboration with healthcare providers to understand industry challenges and proactive policy adjustments will foster a more supportive business environment, ensuring sustainable growth and better distribution of healthcare services across the city..
+Based on the analysis of dental clinic license issuances and Gone out of businesses in Vancouver for 2023 and 2024, it is recommended that the city implement targeted business support programs and policy adjustments to address fluctuations in the dental sector. High cancellation rates may indicate economic challenges such as rising operational costs or regulatory burdens. To mitigate this, Vancouver could offer financial incentives like tax relief or subsidies for clinics in struggling neighborhoods, while focusing on business retention and expansion (BR&E) programs. These initiatives could include mentorship for clinic owners and infrastructure improvements in high-potential areas where new licenses are being issued. Additionally, collaboration with healthcare providers to understand industry challenges and proactive policy adjustments will foster a more supportive business environment, ensuring sustainable growth and better distribution of healthcare services across the city..
 
 # **Tools and Technologies Used**
 
