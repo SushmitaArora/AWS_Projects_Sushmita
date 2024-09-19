@@ -63,7 +63,7 @@ To **analyze the rate of licnese issued or gone out of business**in years 2023 a
 + **3. ETL Pipeline**
 **AWS Glue:** I used AWS Glue to build an automated ETL (Extract, Transform, Load) pipeline, which enabled efficient data extraction from S3, transformation of the data, and loading it for analysis.
 
- <img width="843" alt="image" src="https://github.com/SushmitaArora/AWS_Projects_Sushmita/blob/cfeb10b1bac24d09f1d1aa8a4ee1df64e5e1be13/etl%20bsuiness%20license.jpg">
+![etl bsuiness license](https://github.com/user-attachments/assets/e1f245ee-c4f9-4fa0-aab1-909a397ae9ba)
 
  **4. Data Analysis**
  
